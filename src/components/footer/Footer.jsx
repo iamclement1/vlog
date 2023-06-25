@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import styles from './footer.module.css'
 
 const Footer = () => {
+   
    return (
-      <div>Footer</div>
+      <Fragment>
+         <div className={styles.container}>
+            &copy; 2023 vlog. All rights reserved
+         </div>
+
+      </Fragment>
    )
 }
 
