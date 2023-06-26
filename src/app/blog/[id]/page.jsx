@@ -16,6 +16,7 @@ const Post = () => {
                   width={40}
                   height={40}
                   className={styles.avatar} />
+                  <p className={styles.avatarName}>Nnamdi Azubuike</p>
                </div>
             </div>
             <div className={styles.imageContainer}>

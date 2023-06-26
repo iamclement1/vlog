@@ -31,6 +31,12 @@
    border-radius: 50%;
 }
 
+.avatarName {
+   font-size: 15px;
+   color: #bbb;
+   font-weight: bold;
+}
+
 .imageContainer {
    flex: 1;
    height: 300px;
